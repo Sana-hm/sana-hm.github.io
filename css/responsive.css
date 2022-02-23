@@ -51,18 +51,20 @@
     .aside .nav-toggler {
       display: -ms-flexbox;
       display: flex;
-      left: 20px;
+      left: 10px;
+      top: 27px;
     }
 
-    .aside .nav-toggler .open{
-      left: 300px;
+    .aside .nav-toggler.open{
+      top: 27px;
+      left: 215px;
     }
 
     .aside{
       left: -270px;
     }
 
-    .aside .open{
+    .aside.open{
       left: 0px;
     }
   

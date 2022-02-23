@@ -39,6 +39,8 @@ select {
   min-height: 100vh;
   display: block;
   padding: 0 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .section .active{
@@ -148,6 +150,8 @@ select {
   z-index: 10;
   border-right: 1px solid #e8dfec;
   padding: 30px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .aside .logo {
@@ -164,14 +168,16 @@ select {
   z-index: 11;
   border-radius: 5px;
   background-color: #fdf9ff;
-  /*display: flex;
-   display: -ms-flexbox;*/
+  /* display: flex;
+   display: -ms-flexbox; */
   display: none;
   -ms-flex-align: center;
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  transition: all 1s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
 }
 .aside .nav-toggler span {
   height: 2px;
