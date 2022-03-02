@@ -425,7 +425,7 @@ select {
   max-width: 100%;
 }
 
-.about .about-content .timeline {
+.about .about-content .timeline{
   background-color: #fdf9ff;
   padding: 30px 15px;
   border: 1px solid #d4d4e3;
@@ -969,7 +969,7 @@ body.dark .home .intro p{
 body.dark .about .about-content .timeline,
 body.dark .about .about-content .personal-info .info-item p,
 body.dark .aside .nav li a {
-  border-color: #393939;
+  border-color: #f4fcf5;
 }
 
 

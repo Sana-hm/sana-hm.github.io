@@ -35,43 +35,6 @@ const filterContainer = document.querySelector(".portfolio-filter"),
         })
    }
 
-//  Navbar
-
-// const nav=document.querySelector(".nav"),
-//       navList=nav.querySelectorAll("li"),
-//       totalNavList = navList.length,
-//       allSection = document.querySelectorAll(".section"),
-//       totalSection = allSection.length;
-
-
-// for(let i=0; i<totalNavList; i++) {
-
-//     const a=navList[i].querySelector("a");
-
-//         a.addEventListener("click", function(){
-
-//             for(let k=0; k<totalNavList; k++){
-
-//                 navList[k].querySelector("a").classList.remove("active")
-//             }
-//         this.classList.add("active");
-
-//         showSection(this);
-//    })
-// }
-
-// function showSection(eLement){
-//     for(let i=0; i<totalSection; i++){
-//         allSection[i].classList.remove("active");
-//     }
-
-//     const target = eLement.getAttribute("href").split("#")[1];
-   
-//    document.querySelector("#"+target).classList.add("active");
-
-// }
-
-
 const navTogglerBtn=document.querySelector(".nav-toggler"),
         aside=document.querySelector(".aside");
 
