@@ -282,7 +282,7 @@ select {
   border: 8px solid #ffff;
 }
 
-/* Ax khakestari bashe vaghti miri rush rangi bashe */
+/* quand click sur image va devenir coloré */
 .intro img{
   cursor: pointer;
   transition: 0.5s;
@@ -290,7 +290,7 @@ select {
   filter: grayscale(100%);
 }
 
-/* vaghti miti ru ax biad bala va ye zare saye begire */
+/*  image shadow */
 .intro img:hover {
   filter: grayscale(0%);
   transform: scale(1.05);
@@ -382,12 +382,6 @@ select {
   display: inline-block;
 }
 
-.about .about-content .skills {
-  /* -ms-flex: 0 0 40%;
-  flex: 0 0 40%;
-  max-width: 40%;
-  margin-top: 40px; */
-}
 .about .about-content .skills .skill-item {
   -ms-flex: 0 0 40%;
   flex: 0 0 40%;
@@ -823,9 +817,6 @@ select {
   font-size: 32px;
   line-height: 40px;
 }
-
-
-
 
 /* End lightbox */
 
