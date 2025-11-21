@@ -31,6 +31,13 @@ body a{
   box-sizing: border-box;
 }
 
+.logo-img {
+  width: 180px; /* largeur adaptée à la sidebar */
+  height: auto; /* conserve les proportions */
+  display: block;
+  margin: 0 auto; /* centre le logo */
+}
+
 
 input,
 textarea,
